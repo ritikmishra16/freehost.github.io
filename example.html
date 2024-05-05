@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Canvas Example</title>
+</head>
+
+<body>
+    <h1>Canvas Example</h1>
+
+    <!-- Create a canvas element with an id for JavaScript interaction -->
+    <canvas id="myCanvas" width="400" height="200"></canvas>
+
+    <script>
+        // Get the canvas element by its id
+        var canvas = document.getElementById("myCanvas");
+
+        // Check if the browser supports the canvas element
+        if (canvas.getContext) {
+            // Get a 2D drawing context for the canvas
+            var ctx = canvas.getContext("2d");
+
+            // Drawing operations go here
+            ctx.fillStyle = "blue";
+            ctx.fillRect(50, 50, 100, 100);
+            ctx.strokeStyle = "red";
+            ctx.lineWidth = 2;
+            ctx.strokeRect(75, 75, 50, 50);
+        } else {
+            // Provide a fallback for browsers that don't support canvas
+            alert("Your browser does not support the HTML5 Canvas element.");
+        }
+    </script>
+</body>
+
+</html>
+
+// var x = 10; // var y = 20; // var code = 'var z = x + y;'; // A string containing JavaScript code // // Using eval() to execute the code in the 'code' string // eval(code); // console.log(z); // Outputs: 30

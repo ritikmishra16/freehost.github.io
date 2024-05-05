@@ -1,0 +1,47 @@
+.box {
+    margin-top: 5%;
+    margin-left: 26%;
+    border: 2px solid black;
+    width: 40%;
+    height: 600px;
+    background-image: linear-gradient(to left, rgba(80, 212, 140, 0.767), rgb(130, 209, 195));
+}
+
+.box1 {
+    margin-top: 5%;
+    margin-left: 9%;
+    border: 2px solid black;
+    width: 80%;
+    height: 90px;
+    text-align: right;
+    font-size: 70px;
+    background-image: linear-gradient(to left, rgba(170, 174, 149, 0.767), rgb(204, 226, 78));
+}
+
+
+/* input {
+    si
+} */
+
+table {
+    margin-top: 5%;
+    margin-left: 40px;
+    /* padding: 20px 20px 20px 20px; */
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    background-image: linear-gradient(to left, rgba(80, 212, 140, 0.767), rgb(130, 209, 195));
+}
+
+.button {
+    width: 80%;
+    height: 40px;
+}
+
+td {
+    padding: 20px 20px 20px 20px;
+}
+
+.button:hover {
+    background-color: rgb(119, 214, 223);
+}
